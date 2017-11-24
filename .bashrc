@@ -118,36 +118,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#PS1="\`if [ \$? = 0 ]; then echo \[\e[32m\]^_^\[\e[0m\]; else echo \[\e[31m\]O_O\[\e[0m\]; fi\` \u@\h [\w] "
-#PS1="\`if [ \$? = 0 ]; then echo \[\e[32m\]^_^ NICE\[\e[0m\]; else echo \[\e[31m\]O_O 9487\[\e[0m\]; fi\` \u@\h:[\w]$ "
-
 PS1="\`if [ \$? = 0 ]; then echo \[\e[32m\][NICE] ^_^ \[\e[0m\]; else echo \[\e[31m\][9487] O_O \[\e[0m\]; fi\` \u@\h:[\w]$ "
 
-# added by Anaconda3 4.4.0 installer
-export PATH="/home/ishengfang/anaconda3/bin:$PATH"
-
-#added alias for clean swap
+#My alias
 alias clean_swap='sudo swapoff -a && sudo swapon -a'
-
-#added alias for Change Keras Backend 
-alias keras_cntk='export KERAS_BACKEND=cntk'
-alias keras_tensorflow='export KERAS_BACKEND=tensorflow'
-alias keras_theano='export KERAS_BACKEND=theano'
-
-#added alias for Change Enviroments
-alias activate_py27='source activate py27'
-
 alias ptt='ssh bbsu@ptt.cc'
 alias Watch_Sensors='watch -n 0.5 sensors'
 alias Watch_GPU='watch -n 0.5 nvidia-smi'
 
-#echo "Loaded .bashrc"
-
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
-
-#pyarchey
-
-#Add alias for choose GPU
-alias USE_GPU_0='export CUDA_VISIBLE_DEVICES=0'
-alias USE_GPU_1='export CUDA_VISIBLE_DEVICES=1'
-alias USE_GPU_2='export CUDA_VISIBLE_DEVICES=2'
