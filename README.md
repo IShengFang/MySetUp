@@ -24,7 +24,7 @@ It also will build sevearl envirement
 ```bash
 bash ubuntu_cpu.sh
 ```
-### If you CPU
+### If you only have CPU
 ```bash
 bash ubuntu_cpu.sh
 ```
