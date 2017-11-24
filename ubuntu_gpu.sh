@@ -33,7 +33,9 @@ source deactivate
 user=$USER
 user_cap=${user^^}
 
-echo "All Done!!!
+echo "
+
+All Done!!!
 
 
 
