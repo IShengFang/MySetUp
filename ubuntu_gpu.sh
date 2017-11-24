@@ -9,8 +9,10 @@ cd ~
 wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
 bash Anacoda3-5.0.1-Linux-x86_64.sh
 rm Anaconda3-5.0.1-Linux-x86_64.sh
+
+source ~/.bashrc
+
 pip install tensorflow-gpu keras pyarchey
-source .bashrc
 
 conda create -n py27 python=2 anaconda
 source activate py27
