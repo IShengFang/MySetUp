@@ -10,7 +10,8 @@ My unix setup.
 	- Keras
 	- tensorflow
 	- pyarchey
-It also will build sevearl envirement
+
+### It also will build sevearl envirement
 	- cpu
 		- default (Python3)
 		- py27 (Python)
@@ -22,7 +23,7 @@ It also will build sevearl envirement
 ## How to Use
 ### If you have GPU
 ```bash
-bash ubuntu_cpu.sh
+bash ubuntu_gpu.sh
 ```
 ### If you only have CPU
 ```bash
