@@ -126,3 +126,7 @@ alias ptt='ssh bbsu@ptt.cc'
 alias Watch_Sensors='watch -n 0.5 sensors'
 alias Watch_GPU='watch -n 0.5 nvidia-smi'
 
+#add some python alias
+alias iNumpy="ipython -i -c 'import numpy as np'"
+alias iData="ipython -i -c 'import numpy as np' 'import matplotlib.pyplot as plt'"
+alias iKeras="ipython -i -c 'import numpy as np' 'import os' 'import matplotlib.pyplot as plt' 'from keras.optimizers import *' 'from keras import utils' 'from keras.models import Model,Sequential' 'from keras.layers import Conv2D, Conv2DTranspose, AveragePooling2D, MaxPooling2D, UpSampling2D, Add, Dense, Reshape, Flatten, Lambda, Input, RepeatVector, Concatenate' 'import keras.backend as K' "
