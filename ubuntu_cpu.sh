@@ -1,5 +1,5 @@
 # Basic unix tool
-sudo apt install htop git vim tmux lm-sensors
+sudo apt install htop git vim tmux lm-sensors at
 # set vim and bash
 cp .vimrc ~/
 cp -r .vim ~/
