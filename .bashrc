@@ -129,7 +129,4 @@ alias Watch_GPU='watch -n 0.5 nvidia-smi'
 #For git (form https://stackoverflow.com/questions/5361019/viewing-full-version-tree-in-git )
 alias gl="git log --oneline --graph --decorate --all" #Show the commit histroy for tracing version
 
-#add some python alias
-alias iNumpy="ipython -i -c 'import numpy as np'"
-alias iData="ipython -i -c 'import numpy as np' 'import matplotlib.pyplot as plt'"
-alias iKeras="ipython -i -c 'import numpy as np' 'import os' 'import matplotlib.pyplot as plt' 'from keras.optimizers import *' 'from keras import utils' 'from keras.models import Model,Sequential' 'from keras.layers import Conv2D, Conv2DTranspose, AveragePooling2D, MaxPooling2D, UpSampling2D, Add, Dense, Reshape, Flatten, Lambda, Input, RepeatVector, Concatenate' 'import keras.backend as K' "
+archey
