@@ -1,34 +1,26 @@
 # Basic unix tool
-sudo apt install htop git vim tmux lm-sensors at
+sudo apt install htop git vim tmux lm-sensors nvtop
+#archey 4 
+https://github.com/HorlogeSkynet/archey4/releases/download/v4.8.1/archey4_4.8.1-1_all.deb
+apt install ./archey4_4.Y.Z-R_all.deb
+
 # set vim and bash
 cp .vimrc ~/
 cp -r .vim ~/
 cp .bashrc ~/
 # install python from anaconda
 cd ~
-wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
-bash Anacoda3-5.0.1-Linux-x86_64.sh
-rm Anaconda3-5.0.1-Linux-x86_64.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
 
 source ~/.bashrc
 
-pip install tensorflow-gpu keras pyarchey
-
-conda create -n py27 python=2 anaconda
-source activate py27
-pip install tensorflow-gpu keras
-python -m ipykernel install --user --name py27 --display-name "Python 2"
-
-conda create -n py3_cpu python=3 anaconda
-source activate py3_cpu
-pip install tensorflow-gpu keras
-python -m ipykernel install --user --name py3_cpu --display-name "Python 3(CPU)"
-
-conda create -n py27_cpu python=2 anaconda
-source activate py27_cpu
-pip install tensorflow-gpu keras
-python -m ipykernel install --user --name py27_cpu --display-name "Python 2(CPU)"
-source deactivate
+# install numpy
+conda install -y numpy matplotlib 
+# install pytorch
+conda install -y pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
+# install tensorboard
+conda install -y tensorboard
 
 user=$USER
 user_cap=${user^^}
