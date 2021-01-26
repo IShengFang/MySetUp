@@ -1,8 +1,8 @@
 # Basic unix tool
 sudo apt install htop git vim tmux lm-sensors nvtop
 #archey 4 
-https://github.com/HorlogeSkynet/archey4/releases/download/v4.8.1/archey4_4.8.1-1_all.deb
-apt install ./archey4_4.Y.Z-R_all.deb
+https://github.com/HorlogeSkynet/archey4/releases/download/v4.10.0/archey4_4.10.0-1_all.deb
+sudo apt install ./archey4_4.10.0-1_all.deb
 
 # set vim and bash
 cp .vimrc ~/
