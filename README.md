@@ -29,3 +29,7 @@ bash ubuntu_gpu.sh
 ```bash
 bash ubuntu_cpu.sh
 ```
+### Oneliner :wink:
+```bash
+wget https://raw.githubusercontent.com/IShengFang/MySetUp/master/ubuntu_gpu_aio.sh && bash ubuntu_gpu_aio.sh
+```
