@@ -19,7 +19,7 @@ conda init
 source ~/.bashrc
 
 # install numpy
-conda install -y numpy matplotlib 
+conda install -y numpy matplotlib scipy
 # install pytorch
 conda install -y pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
 # install tensorboard
