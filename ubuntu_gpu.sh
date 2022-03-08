@@ -1,8 +1,8 @@
 # Basic unix tool
 sudo apt install htop git vim tmux lm-sensors nvtop
 #archey 4 
-https://github.com/HorlogeSkynet/archey4/releases/download/v4.10.0/archey4_4.10.0-1_all.deb
-sudo apt install ./archey4_4.10.0-1_all.deb
+https://github.com/HorlogeSkynet/archey4/releases/download/v4.13.3/archey4_4.13.3-1_all.deb
+sudo apt install ./archey4_4.13.3-1_all.deb
 
 # set vim and bash
 cp .vimrc ~/
@@ -21,7 +21,7 @@ source ~/.bashrc
 # install numpy
 conda install -y numpy matplotlib scipy
 # install pytorch
-conda install -y pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
+conda install -y pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 # install tensorboard
 conda install -y tensorboard
 
