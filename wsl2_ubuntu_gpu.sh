@@ -1,6 +1,6 @@
 # Basic unix tool
 echo "insall basic unix tool"
-sudo apt install htop git vim tmux nvtop
+sudo apt install -y htop git vim tmux nvtop 
 #archey 4 
 echo "insall archey 4"
 wget https://github.com/HorlogeSkynet/archey4/releases/download/v4.13.3/archey4_4.13.3-1_all.deb
