@@ -36,7 +36,7 @@ echo "install pytorch w/ cuda 10.2"
 conda install -y pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 echo "install tensorboard matplotlib scipy"
 # install tensorboard matplotlib scipy
-conda install -y tensorboard matplotlib scipy
+conda install -y tensorboard matplotlib scipy jupyterlab ipython
 
 user=$USER
 user_cap=${user^^}
