@@ -128,3 +128,5 @@ alias Watch_GPU='watch -n 0.5 nvidia-smi'
 
 #For git (form https://stackoverflow.com/questions/5361019/viewing-full-version-tree-in-git )
 alias gl="git log --oneline --graph --decorate --all" #Show the commit histroy for tracing version
+
+archey
